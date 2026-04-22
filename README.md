@@ -32,7 +32,7 @@ Designed with a focus on:
 ---
 
 ## 📁 Project Structure
-
+```
 src/
 │
 ├── App.jsx
@@ -73,7 +73,7 @@ src/
 └── utils/
 ├── logger.utils.js
 └── toaster.utils.js
-
+```
 ---
 
 ## ✨ Features
@@ -88,27 +88,27 @@ src/
 ---
 
 ## ⚙️ Setup
-
+```bash
 npm install
 npm run dev
-
+```
 ---
 
 ## 🔔 Toast Usage
-
+```
 import { showSuccess } from "@/utils/toaster.utils";
 
 showSuccess("Booking started!");
-
+```
 ---
 
 ## 🧾 Logger Usage
-
+```
 import { logInfo, logError } from "@/utils/logger.utils";
 
 logInfo("User clicked CTA");
 logError("Something failed", error);
-
+```
 ---
 
 ## 🚀 Future Improvements
