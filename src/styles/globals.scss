@@ -1,0 +1,36 @@
+@use "./variables" as *;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: $bg;
+  color: $text-dark;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: $radius;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+
+  &--primary {
+    background: linear-gradient(135deg, $primary, $accent);
+    color: white;
+  }
+
+  &--secondary {
+    background: white;
+    border: 1px solid #ddd;
+  }
+}
